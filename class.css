@@ -1,0 +1,68 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(9, 150px);
+    grid-template-areas: 
+    "caleb caleb clara"
+    "caleb caleb paul"
+    "caleb caleb samuel"
+    "daniel yomi emmanuel"
+    "daniel yomi emmanuel"
+    "sarah sarah emmanuel"
+    "sarah sarah emmanuel"
+    "gideon kamso kayode"
+    "genesis genesis genesis";
+    gap: 15px;
+}
+
+article{
+    background-color: cyan;
+}
+
+article:nth-child(1){
+    grid-area: caleb;
+}
+
+article:nth-child(2){
+    grid-area: clara;
+}
+
+article:nth-child(3){
+    grid-area: paul;
+}
+
+article:nth-child(4){
+    grid-area: samuel;
+}
+
+article:nth-child(5){
+    grid-area: daniel;
+}
+
+article:nth-child(6){
+    grid-area: yomi;
+}
+
+article:nth-child(7){
+    grid-area: emmanuel;
+}
+
+article:nth-child(8){
+    grid-area: sarah;
+}
+
+article:nth-child(9){
+    grid-area: gideon;
+}
+
+article:nth-child(10){
+    grid-area: kamso;
+}
+
+article:nth-child(11){
+    grid-area: kayode;
+}
+
+article:nth-child(12){
+    grid-area: genesis;
+}

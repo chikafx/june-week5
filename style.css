@@ -1,0 +1,19 @@
+li{
+    display: inline-block;
+    width: 50px;
+    background-color: fuchsia;
+    text-align: center;
+
+    
+}
+
+div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(3, 300px);
+}
+
+h2{
+    background-color: fuchsia;
+}
