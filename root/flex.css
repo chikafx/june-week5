@@ -1,0 +1,7 @@
+ul>li{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    text-transform: capitalize;
+    justify-content: flex-end
+}
